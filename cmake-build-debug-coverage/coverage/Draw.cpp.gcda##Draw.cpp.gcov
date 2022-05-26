@@ -1,0 +1,550 @@
+        -:    0:Source:C:/Users/Admin/OneDrive - vnu.edu.vn/Desktop/HangManProVip/Sources/Draw.cpp
+        -:    0:Graph:C:\Users\Admin\OneDrive - vnu.edu.vn\Desktop\HangManProVip\cmake-build-debug-coverage\CMakeFiles\HangManProVip.dir\Sources\Draw.cpp.gcno
+        -:    0:Data:C:\Users\Admin\OneDrive - vnu.edu.vn\Desktop\HangManProVip\cmake-build-debug-coverage\CMakeFiles\HangManProVip.dir\Sources\Draw.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Phan Minh Phong on 5/3/2022.
+        -:    3://
+        -:    4:#include <iostream>
+        -:    5:#include <chrono>
+        -:    6:#include <thread>
+        -:    7:#include <stdlib.h>
+        -:    8:
+        -:    9:using namespace std;
+        -:   10:
+function _Z9Printhintbbb called 0 returned 0% blocks executed 0%
+    #####:   11:void Printhint(bool hint1, bool hint2, bool hint3) {
+    #####:   12:    if (!hint1)
+    %%%%%:   12-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   13:        cout << "Enter number 1 if you want its Vietnamese meaning (-10% point) " << endl;
+    %%%%%:   13-block  0
+call    0 never executed
+call    1 never executed
+    #####:   14:    if (!hint2)
+    %%%%%:   14-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   15:        cout << "Enter number 2 if you want training wheels(-15% point) " << endl;
+    %%%%%:   15-block  0
+call    0 never executed
+call    1 never executed
+    #####:   16:    if (!hint3)
+    %%%%%:   16-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   17:        cout << "Enter number 3 if you want one letter off(-20% point) " << endl;
+    %%%%%:   17-block  0
+call    0 never executed
+call    1 never executed
+    #####:   18:    if (hint1 && hint2 && hint3)
+    %%%%%:   18-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:   18-block  1
+branch  2 never executed
+branch  3 never executed
+    %%%%%:   18-block  2
+branch  4 never executed
+branch  5 never executed
+    #####:   19:        cout << "You've run out of hint" << endl;
+    %%%%%:   19-block  0
+call    0 never executed
+call    1 never executed
+    #####:   20:}
+        -:   21:
+function _Z17getNextDancingManB5cxx11v called 0 returned 0% blocks executed 0%
+    #####:   22:const string &getNextDancingMan() {
+        -:   23:    const static string figure[] = {
+        -:   24:            "     O     \n"
+        -:   25:            "    /|\\   \n"
+        -:   26:            "    | |    \n",
+        -:   27:            "     O     \n"
+        -:   28:            "    /|\\   \n"
+        -:   29:            "    / \\   \n",
+        -:   30:            "   __O__   \n"
+        -:   31:            "     |     \n"
+        -:   32:            "    / \\   \n",
+        -:   33:            "    \\O/   \n"
+        -:   34:            "     |     \n"
+        -:   35:            "    / \\   \n",
+        -:   36:            "   __O__   \n"
+        -:   37:            "     |     \n"
+        -:   38:            "    / \\   \n",
+        -:   39:            "     O     \n"
+        -:   40:            "    /|\\   \n"
+        -:   41:            "    / \\   \n",
+        -:   42:            "    O      \n"
+        -:   43:            "    /|\\   \n"
+        -:   44:            "    / \\   \n",
+        -:   45:            "     O     \n"
+        -:   46:            "    /|\\   \n"
+        -:   47:            "    / \\   \n",
+        -:   48:            "      O    \n"
+        -:   49:            "    /|\\   \n"
+        -:   50:            "    / \\   \n",
+        -:   51:            "     O     \n"
+        -:   52:            "    /|\\   \n"
+        -:   53:            "    / \\   \n",
+        -:   54:
+        -:   55:
+    #####:   56:    };
+    %%%%%:   56-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:   56-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   56-block  2
+call    5 never executed
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   56-block  3
+call    9 never executed
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   56-block  4
+call   14 never executed
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   56-block  5
+call   19 never executed
+call   20 never executed
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:   56-block  6
+call   24 never executed
+call   25 never executed
+call   26 never executed
+branch 27 never executed
+branch 28 never executed
+    %%%%%:   56-block  7
+call   29 never executed
+call   30 never executed
+call   31 never executed
+branch 32 never executed
+branch 33 never executed
+    %%%%%:   56-block  8
+call   34 never executed
+call   35 never executed
+call   36 never executed
+branch 37 never executed
+branch 38 never executed
+    %%%%%:   56-block  9
+call   39 never executed
+call   40 never executed
+call   41 never executed
+branch 42 never executed
+branch 43 never executed
+    %%%%%:   56-block 10
+call   44 never executed
+call   45 never executed
+call   46 never executed
+branch 47 never executed
+branch 48 never executed
+    %%%%%:   56-block 11
+call   49 never executed
+call   50 never executed
+call   51 never executed
+branch 52 never executed
+branch 53 never executed
+    %%%%%:   56-block 12
+call   54 never executed
+call   55 never executed
+call   56 never executed
+    $$$$$:   56-block 13
+call   57 never executed
+    $$$$$:   56-block 14
+    $$$$$:   56-block 15
+call   58 never executed
+    $$$$$:   56-block 16
+    $$$$$:   56-block 17
+call   59 never executed
+    $$$$$:   56-block 18
+    $$$$$:   56-block 19
+call   60 never executed
+    $$$$$:   56-block 20
+    $$$$$:   56-block 21
+call   61 never executed
+    $$$$$:   56-block 22
+    $$$$$:   56-block 23
+call   62 never executed
+    $$$$$:   56-block 24
+    $$$$$:   56-block 25
+call   63 never executed
+    $$$$$:   56-block 26
+    $$$$$:   56-block 27
+call   64 never executed
+    $$$$$:   56-block 28
+    $$$$$:   56-block 29
+call   65 never executed
+    $$$$$:   56-block 30
+    $$$$$:   56-block 31
+call   66 never executed
+    $$$$$:   56-block 32
+    $$$$$:   56-block 33
+    $$$$$:   56-block 34
+call   67 never executed
+    $$$$$:   56-block 35
+branch 68 never executed
+branch 69 never executed
+    $$$$$:   56-block 36
+call   70 never executed
+        -:   57:    const static int NUMBER_OF_FIGURES = sizeof(figure) / sizeof(string);
+        -:   58:    static int currentFigure = 0;
+    #####:   59:    return figure[(currentFigure++) % NUMBER_OF_FIGURES];
+    %%%%%:   59-block  0
+    %%%%%:   59-block  1
+        -:   60:}
+        -:   61:
+function _Z14getNextHangManB5cxx11v called 0 returned 0% blocks executed 0%
+    #####:   62:const string &getNextHangMan() {
+        -:   63:    const static string figure[] = {
+        -:   64:            "   ------------+    \n"
+        -:   65:            "   |    /           \n"
+        -:   66:            "   |    O      \n"
+        -:   67:            "   |   /|\\    \n"
+        -:   68:            "   |   / \\    \n"
+        -:   69:            "   |        \n"
+        -:   70:            " -----      \n",
+        -:   71:            "   ------------+     \n"
+        -:   72:            "   |     |           \n"
+        -:   73:            "   |     O           \n"
+        -:   74:            "   |    /|\\         \n"
+        -:   75:            "   |    / \\         \n"
+        -:   76:            "   |        \n"
+        -:   77:            " -----      \n",
+        -:   78:            "   ------------+     \n"
+        -:   79:            "   |      \\         \n"
+        -:   80:            "   |      O          \n"
+        -:   81:            "   |     /|\\        \n"
+        -:   82:            "   |     / \\        \n"
+        -:   83:            "   |      \n"
+        -:   84:            " -----    \n",
+        -:   85:            "   ------------+     \n"
+        -:   86:            "   |     |           \n"
+        -:   87:            "   |     O           \n"
+        -:   88:            "   |    /|\\         \n"
+        -:   89:            "   |    / \\         \n"
+        -:   90:            "   |        \n"
+        -:   91:            " -----      \n"
+    #####:   92:    };
+    %%%%%:   92-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:   92-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   92-block  2
+call    5 never executed
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   92-block  3
+call    9 never executed
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   92-block  4
+call   14 never executed
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   92-block  5
+call   19 never executed
+call   20 never executed
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:   92-block  6
+call   24 never executed
+call   25 never executed
+call   26 never executed
+    $$$$$:   92-block  7
+call   27 never executed
+    $$$$$:   92-block  8
+    $$$$$:   92-block  9
+call   28 never executed
+    $$$$$:   92-block 10
+    $$$$$:   92-block 11
+call   29 never executed
+    $$$$$:   92-block 12
+    $$$$$:   92-block 13
+call   30 never executed
+    $$$$$:   92-block 14
+    $$$$$:   92-block 15
+    $$$$$:   92-block 16
+call   31 never executed
+    $$$$$:   92-block 17
+branch 32 never executed
+branch 33 never executed
+    $$$$$:   92-block 18
+call   34 never executed
+        -:   93:    const static int NUMBER_OF_FIGURES = sizeof(figure) / sizeof(string);
+        -:   94:    static int currentFigure = 0;
+    #####:   95:    return figure[(currentFigure++) % NUMBER_OF_FIGURES];
+    %%%%%:   95-block  0
+    %%%%%:   95-block  1
+        -:   96:}
+        -:   97:
+function _Z18displayFinalResultbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 0 returned 0% blocks executed 0%
+    #####:   98:void displayFinalResult(bool won, const string &word) {
+    #####:   99:    for (int i = 0; i < 7; i++) {
+    %%%%%:   99-block  0
+    %%%%%:   99-block  1
+branch  0 never executed
+branch  1 never executed
+    #####:  100:        system("cls");;
+    %%%%%:  100-block  0
+call    0 never executed
+    #####:  101:        if (won)
+branch  0 never executed
+branch  1 never executed
+    #####:  102:            cout << "Congratulations! You win!" << endl;
+    %%%%%:  102-block  0
+call    0 never executed
+call    1 never executed
+        -:  103:        else
+    #####:  104:            cout << "You lost. The correct word is " << word << endl;
+    %%%%%:  104-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+    #####:  105:        cout << (won ? getNextDancingMan() : getNextHangMan());
+    %%%%%:  105-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  105-block  1
+call    2 never executed
+    %%%%%:  105-block  2
+call    3 never executed
+    %%%%%:  105-block  3
+call    4 never executed
+    #####:  106:        this_thread::sleep_for(chrono::milliseconds(300));
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  106-block  0
+    $$$$$:  106-block  1
+        -:  107:    }
+    #####:  108:}
+    %%%%%:  108-block  0
+        -:  109:
+function _Z10getDrawingB5cxx11i called 0 returned 0% blocks executed 0%
+    #####:  110:string getDrawing(int incorrectGuess) {
+        -:  111:    static const string figure[] = {
+        -:  112:            "   -------------    \n"
+        -:  113:            "   |                \n"
+        -:  114:            "   |                \n"
+        -:  115:            "   |                \n"
+        -:  116:            "   |                \n"
+        -:  117:            "   |     \n"
+        -:  118:            " -----   \n",
+        -:  119:            "   -------------    \n"
+        -:  120:            "   |           |    \n"
+        -:  121:            "   |                \n"
+        -:  122:            "   |                \n"
+        -:  123:            "   |                \n"
+        -:  124:            "   |     \n"
+        -:  125:            " -----   \n",
+        -:  126:            "   -------------    \n"
+        -:  127:            "   |           |    \n"
+        -:  128:            "   |           O    \n"
+        -:  129:            "   |                \n"
+        -:  130:            "   |                \n"
+        -:  131:            "   |     \n"
+        -:  132:            " -----   \n",
+        -:  133:            "   -------------    \n"
+        -:  134:            "   |           |    \n"
+        -:  135:            "   |           O    \n"
+        -:  136:            "   |           |    \n"
+        -:  137:            "   |                \n"
+        -:  138:            "   |     \n"
+        -:  139:            " -----   \n",
+        -:  140:            "   -------------    \n"
+        -:  141:            "   |           |    \n"
+        -:  142:            "   |           O    \n"
+        -:  143:            "   |          /|    \n"
+        -:  144:            "   |                \n"
+        -:  145:            "   |     \n"
+        -:  146:            " -----   \n",
+        -:  147:            "   -------------    \n"
+        -:  148:            "   |           |    \n"
+        -:  149:            "   |           O    \n"
+        -:  150:            "   |          /|\\  \n"
+        -:  151:            "   |                \n"
+        -:  152:            "   |     \n"
+        -:  153:            " -----   \n",
+        -:  154:            "   -------------    \n"
+        -:  155:            "   |           |    \n"
+        -:  156:            "   |           O    \n"
+        -:  157:            "   |          /|\\  \n"
+        -:  158:            "   |          /     \n"
+        -:  159:            "   |     \n"
+        -:  160:            " -----   \n",
+        -:  161:            "   -------------    \n"
+        -:  162:            "   |           |    \n"
+        -:  163:            "   |           O    \n"
+        -:  164:            "   |          /|\\  \n"
+        -:  165:            "   |          / \\  \n"
+        -:  166:            "   |     \n"
+        -:  167:            " -----   \n",
+    #####:  168:    };
+    %%%%%:  168-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  168-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  168-block  2
+call    5 never executed
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  168-block  3
+call    9 never executed
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  168-block  4
+call   14 never executed
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:  168-block  5
+call   19 never executed
+call   20 never executed
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:  168-block  6
+call   24 never executed
+call   25 never executed
+call   26 never executed
+branch 27 never executed
+branch 28 never executed
+    %%%%%:  168-block  7
+call   29 never executed
+call   30 never executed
+call   31 never executed
+branch 32 never executed
+branch 33 never executed
+    %%%%%:  168-block  8
+call   34 never executed
+call   35 never executed
+call   36 never executed
+branch 37 never executed
+branch 38 never executed
+    %%%%%:  168-block  9
+call   39 never executed
+call   40 never executed
+call   41 never executed
+branch 42 never executed
+branch 43 never executed
+    %%%%%:  168-block 10
+call   44 never executed
+call   45 never executed
+call   46 never executed
+    $$$$$:  168-block 11
+call   47 never executed
+    $$$$$:  168-block 12
+    $$$$$:  168-block 13
+call   48 never executed
+    $$$$$:  168-block 14
+    $$$$$:  168-block 15
+call   49 never executed
+    $$$$$:  168-block 16
+    $$$$$:  168-block 17
+call   50 never executed
+    $$$$$:  168-block 18
+    $$$$$:  168-block 19
+call   51 never executed
+    $$$$$:  168-block 20
+    $$$$$:  168-block 21
+call   52 never executed
+    $$$$$:  168-block 22
+    $$$$$:  168-block 23
+call   53 never executed
+    $$$$$:  168-block 24
+    $$$$$:  168-block 25
+call   54 never executed
+    $$$$$:  168-block 26
+    $$$$$:  168-block 27
+    $$$$$:  168-block 28
+call   55 never executed
+    $$$$$:  168-block 29
+branch 56 never executed
+branch 57 never executed
+    $$$$$:  168-block 30
+call   58 never executed
+        -:  169:
+    #####:  170:    const int NUMBER_OF_FIGURES = sizeof(figure) / sizeof(string);
+    #####:  171:    return figure[incorrectGuess % NUMBER_OF_FIGURES];
+    %%%%%:  171-block  0
+call    0 never executed
+        -:  172:}
+        -:  173:
+function _Z10renderGameRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_bbb called 0 returned 0% blocks executed 0%
+    #####:  174:void renderGame(const string &guessedWord, const string &badGuesses,bool hint1, bool hint2, bool hint3) {
+        -:  175:    //system("cls");;
+    #####:  176:    system("cls");
+    %%%%%:  176-block  0
+call    0 never executed
+    #####:  177:    int badGuessCount = badGuesses.length();
+call    0 never executed
+    #####:  178:    Printhint(hint1, hint2, hint3);
+call    0 never executed
+    #####:  179:    cout << getDrawing(badGuessCount) << endl;
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  179-block  0
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    %%%%%:  179-block  1
+call    7 never executed
+    $$$$$:  179-block  2
+call    8 never executed
+    #####:  180:    cout << "Secret word: " << guessedWord << endl;
+call    0 never executed
+call    1 never executed
+call    2 never executed
+    #####:  181:    if (badGuessCount > 0) {
+branch  0 never executed
+branch  1 never executed
+    #####:  182:        cout << "You've made " << badGuessCount << " wrong ";
+    %%%%%:  182-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+    #####:  183:        cout << (badGuessCount == 1 ? "guess" : "guesses");
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  183-block  0
+    %%%%%:  183-block  1
+    %%%%%:  183-block  2
+call    2 never executed
+    #####:  184:        cout << ": " << badGuesses << endl;
+call    0 never executed
+call    1 never executed
+call    2 never executed
+        -:  185:    }
+    #####:  186:}
+    %%%%%:  186-block  0

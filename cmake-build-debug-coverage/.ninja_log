@@ -1,0 +1,11 @@
+# ninja log v5
+11	567	6747701503183905	CMakeFiles/HangManProVip.dir/Sources/HintFunctions.cpp.obj	697ccdd9c5203c0f
+2	719	6747703610466099	CMakeFiles/HangManProVip.dir/Sources/Draw.cpp.obj	178c13da7298ad73
+0	145	6750351490320705	build.ninja	412ee6b2ff0780c7
+3	903	6749195531905538	CMakeFiles/HangManProVip.dir/Sources/Main_Rule.cpp.obj	8a129f83115e0090
+4	1385	6749151290029054	CMakeFiles/HangManProVip.dir/main.cpp.obj	e83a34e0a2b88880
+12	2144	6749195243246285	CMakeFiles/HangManProVip.dir/demo/demo.cpp.obj	84da81a2a89d4646
+9	1376	6749166351455802	CMakeFiles/HangManProVip.dir/Sources/Ai_Function.cpp.obj	37d25652dc4c0cf9
+1308	1482	6749152846145397	HangManProVip.exe	e5dbd39537b15dc7
+3	2081	6749194004790021	CMakeFiles/demo.dir/demo/demo.cpp.obj	679be576dac4ece
+2081	2177	6749194005740237	demo.exe	9755c0ef1e315dfe

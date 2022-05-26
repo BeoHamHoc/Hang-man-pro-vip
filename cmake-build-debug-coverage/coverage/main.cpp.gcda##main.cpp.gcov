@@ -1,0 +1,1398 @@
+        -:    0:Source:C:/Users/Admin/OneDrive - vnu.edu.vn/Desktop/HangManProVip/main.cpp
+        -:    0:Graph:C:\Users\Admin\OneDrive - vnu.edu.vn\Desktop\HangManProVip\cmake-build-debug-coverage\CMakeFiles\HangManProVip.dir\main.cpp.gcno
+        -:    0:Data:C:\Users\Admin\OneDrive - vnu.edu.vn\Desktop\HangManProVip\cmake-build-debug-coverage\CMakeFiles\HangManProVip.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include<iostream>
+        -:    2:#include <chrono>
+        -:    3:#include <thread>
+        -:    4:#include "Header/Draw.h"
+        -:    5:#include "Header/Main Rule.h"
+        -:    6:#include "Header/HintFunctions.h"
+        -:    7:#include "Header/Ai_Function.h"
+        -:    8:
+        -:    9:using namespace std;
+        -:   10:const int MAX_BAD_GUESSES = 7;
+        -:   11:
+function main called 1 returned 0% blocks executed 6%
+        1:   12:int main() {
+        -:   13:    const char *DATA_FILE;
+        -:   14:    const char *MEANING_FILE;
+        -:   15:    int choose;
+        1:   16:    string z;
+        1:   16-block  0
+call    0 returned 1
+        1:   17:    fflush(stdin);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   17-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   18:    int Play_Option = 1;
+        1:   18-block  0
+        -:   19:    do {
+        1:   20:        cout << endl
+        1:   20-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   21:             << "===== Menu =====" << endl
+        1:   21-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   21-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   22:             << "1. Play" << endl
+        1:   22-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   22-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   23:             << "2. Play by Topic" << endl
+        1:   23-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   23-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   24:             << "3. Find Words in Vietnamese Meaning" << endl
+        1:   24-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   24-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   25:             << "4. Time limit " << endl
+        1:   25-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   25-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   26:             << "5. AI Play" << endl
+        1:   26-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   26-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        -:   27:             << "6.Ranked"
+        1:   28:             << "0. Exit" << endl
+        1:   28-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   28-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   28-block  2
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:   29:             << "Your choice: ";
+        1:   29-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   30:        cin >> choose;
+        1:   30-block  0
+call    0 returned 0
+branch  1 taken 0 (fallthrough)
+branch  2 taken 0 (throw)
+    #####:   31:        switch (choose) {
+    %%%%%:   31-block  0
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+branch  6 never executed
+    #####:   32:            case 0:
+    #####:   33:                break;
+    %%%%%:   33-block  0
+    #####:   34:            case 1: {
+    #####:   35:                Play_Option = 1;
+    #####:   36:                cout << "===== Level =====" << endl
+    %%%%%:   36-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   36-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   37:                     << "1.Easy" << endl
+    %%%%%:   37-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   37-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   38:                     << "2.Medium" << endl
+    %%%%%:   38-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   38-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   39:                     << "3.Hard" << endl
+    %%%%%:   39-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   39-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   40:                     << "4.Back" << endl
+    %%%%%:   40-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   40-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   41:                     << "Your choice: ";
+    %%%%%:   41-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   42:                int Level;
+    #####:   43:                cin >> Level;
+    %%%%%:   43-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   44:                fflush(stdin);
+    %%%%%:   44-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   44-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   45:                switch (Level) {
+    %%%%%:   45-block  0
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+    #####:   46:                    case 1: {
+    #####:   47:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\easyWordList.txt";
+    #####:   48:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\easyMeaning.txt";
+    #####:   49:                        break;
+    %%%%%:   49-block  0
+        -:   50:                    }
+    #####:   51:                    case 2: {
+    #####:   52:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\mediumWordList.txt";
+    #####:   53:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\mediumMeaning.txt";
+    #####:   54:                        break;
+    %%%%%:   54-block  0
+        -:   55:                    }
+    #####:   56:                    case 3: {
+    #####:   57:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\hardWordList.txt";
+    #####:   58:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\hardMeaning.txt";
+    #####:   59:                        break;
+    %%%%%:   59-block  0
+        -:   60:                    }
+    #####:   61:                    case 4: {
+    #####:   62:                        Play_Option = 0;
+    #####:   63:                        break;
+    %%%%%:   63-block  0
+        -:   64:                    }
+        -:   65:                }
+    #####:   66:                break;
+    %%%%%:   66-block  0
+        -:   67:            }
+    #####:   68:            case 2: {
+    #####:   69:                Play_Option = 2;
+    #####:   70:                cout << "===== Topic =====" << endl
+    %%%%%:   70-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   70-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   71:                     << "1.Fruit" << endl
+    %%%%%:   71-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   71-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   72:                     << "2.Jobs" << endl
+    %%%%%:   72-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   72-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   73:                     << "3.Subject" << endl
+    %%%%%:   73-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   73-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   74:                     << "4.Animals" << endl
+    %%%%%:   74-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   74-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   75:                     << "5.Back" << endl
+    %%%%%:   75-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   75-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   76:                     << "Your choice: ";
+    %%%%%:   76-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   77:                int Topic;
+    #####:   78:                cin >> Topic;
+    %%%%%:   78-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   79:                switch (Topic) {
+    %%%%%:   79-block  0
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   80:                    case 1: {
+    #####:   81:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\fruits.txt";
+    #####:   82:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\fruitsMeaning.txt";
+    #####:   83:                        break;
+    %%%%%:   83-block  0
+        -:   84:                    }
+    #####:   85:                    case 2: {
+    #####:   86:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\jobs.txt";
+    #####:   87:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\jobsMeaning.txt";
+    #####:   88:                        break;
+    %%%%%:   88-block  0
+        -:   89:                    }
+    #####:   90:                    case 3: {
+    #####:   91:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\Subjects.txt";
+    #####:   92:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\SubjectMeaning.txt";
+    #####:   93:                        break;
+    %%%%%:   93-block  0
+        -:   94:                    }
+    #####:   95:                    case 4: {
+    #####:   96:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\Animals.txt";
+    #####:   97:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\AnimalMeaning.txt";
+    #####:   98:                        break;
+    %%%%%:   98-block  0
+        -:   99:                    }
+    #####:  100:                    case 6: {
+    #####:  101:                        Play_Option = 0;
+    #####:  102:                        break;
+    %%%%%:  102-block  0
+        -:  103:                    }
+        -:  104:                }
+    #####:  105:                break;
+    %%%%%:  105-block  0
+        -:  106:            }
+    #####:  107:            case 3: {
+    #####:  108:                Play_Option = 3;
+    #####:  109:                cout << "===== Level =====" << endl
+    %%%%%:  109-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  109-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  110:                     << "1.Easy" << endl
+    %%%%%:  110-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  110-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  111:                     << "2.Medium" << endl
+    %%%%%:  111-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  111-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  112:                     << "3.Hard" << endl
+    %%%%%:  112-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  112-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  113:                     << "4.Back" << endl
+    %%%%%:  113-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  113-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  114:                     << "Your choice: ";
+    %%%%%:  114-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  115:                int Level;
+    #####:  116:                cin >> Level;
+    %%%%%:  116-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  117:                fflush(stdin);
+    %%%%%:  117-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  117-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  118:                switch (Level) {
+    %%%%%:  118-block  0
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+    #####:  119:                    case 1: {
+    #####:  120:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\easyWordList.txt";
+    #####:  121:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\easyMeaning.txt";
+    #####:  122:                        break;
+    %%%%%:  122-block  0
+        -:  123:                    }
+    #####:  124:                    case 2: {
+    #####:  125:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\mediumWordList.txt";
+    #####:  126:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\mediumMeaning.txt";
+    #####:  127:                        break;
+    %%%%%:  127-block  0
+        -:  128:                    }
+    #####:  129:                    case 3: {
+    #####:  130:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\hardWordList.txt";
+    #####:  131:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\hardMeaning.txt";
+    #####:  132:                        break;
+    %%%%%:  132-block  0
+        -:  133:                    }
+    #####:  134:                    case 4: {
+    #####:  135:                        Play_Option = 0;
+    #####:  136:                        break;
+    %%%%%:  136-block  0
+        -:  137:                    }
+        -:  138:                }
+    #####:  139:                break;
+    %%%%%:  139-block  0
+        -:  140:            }
+    #####:  141:            case 4: {
+    #####:  142:                Play_Option = 4;
+    #####:  143:                cout << "===== Level =====" << endl
+    %%%%%:  143-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  143-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  144:                     << "1.Easy" << endl
+    %%%%%:  144-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  144-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  145:                     << "2.Medium" << endl
+    %%%%%:  145-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  145-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  146:                     << "3.Hard" << endl
+    %%%%%:  146-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  146-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  147:                     << "4.Back" << endl
+    %%%%%:  147-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  147-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  148:                     << "Your choice: ";
+    %%%%%:  148-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  149:                int Level;
+    #####:  150:                cin >> Level;
+    %%%%%:  150-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  151:                fflush(stdin);
+    %%%%%:  151-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  151-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  152:                switch (Level) {
+    %%%%%:  152-block  0
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+    #####:  153:                    case 1: {
+    #####:  154:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\easyWordList.txt";
+    #####:  155:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\easyMeaning.txt";
+    #####:  156:                        break;
+    %%%%%:  156-block  0
+        -:  157:                    }
+    #####:  158:                    case 2: {
+    #####:  159:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\mediumWordList.txt";
+    #####:  160:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\mediumMeaning.txt";
+    #####:  161:                        break;
+    %%%%%:  161-block  0
+        -:  162:                    }
+    #####:  163:                    case 3: {
+    #####:  164:                        DATA_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\hardWordList.txt";
+    #####:  165:                        MEANING_FILE = "C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\hardMeaning.txt";
+    #####:  166:                        break;
+    %%%%%:  166-block  0
+        -:  167:                    }
+    #####:  168:                    case 4: {
+    #####:  169:                        Play_Option = 0;
+    #####:  170:                        break;
+    %%%%%:  170-block  0
+        -:  171:                    }
+        -:  172:                }
+    #####:  173:                break;
+    %%%%%:  173-block  0
+        -:  174:            }
+    #####:  175:            case 5: {
+    %%%%%:  175-block  0
+        -:  176:                do {
+        -:  177:                    int wordLength;
+    #####:  178:                    string secretWord;
+    %%%%%:  178-block  0
+call    0 never executed
+        -:  179:                    int incorrectGuess;
+    #####:  180:                    set<char> previousGuesses;
+call    0 never executed
+        -:  181:                    bool stop;
+    #####:  182:                    bool teachAi = false;
+    #####:  183:                    initialize(wordLength, secretWord, incorrectGuess, previousGuesses, stop);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  184:
+    #####:  185:                    render(incorrectGuess, previousGuesses, secretWord);
+    %%%%%:  185-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  186:                    do {
+    #####:  187:                        char guess = getNextGuess(previousGuesses, secretWord);
+    %%%%%:  187-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  188:                        if (guess == 0) {
+    %%%%%:  188-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  189:                            cout << "I give up,I don't know this word, please teach me." << endl;
+    %%%%%:  189-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  189-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  190:                            this_thread::sleep_for(chrono::milliseconds(1000));
+    %%%%%:  190-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  190-block  1
+    $$$$$:  190-block  2
+    #####:  191:                            AIstudy();
+    %%%%%:  191-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  192:                            cout << "Thank you!" << endl;
+    %%%%%:  192-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  192-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  193:                            this_thread::sleep_for(chrono::milliseconds(1000));
+    %%%%%:  193-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  193-block  1
+    $$$$$:  193-block  2
+    #####:  194:                            stop = true;
+    #####:  195:                            teachAi = true;
+    %%%%%:  195-block  0
+        -:  196:                        } else {
+        -:  197:                            do {
+        -:  198:                                try {
+    #####:  199:                                    string mask = getUserAnswer(guess);
+    %%%%%:  199-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  200:                                    update(guess, mask, incorrectGuess, previousGuesses, secretWord, stop);
+    %%%%%:  200-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  201:                                    break;
+    %%%%%:  201-block  0
+    #####:  202:                                } catch (invalid_argument) {
+    %%%%%:  202-block  0
+call    0 never executed
+    $$$$$:  202-block  1
+call    1 never executed
+    $$$$$:  202-block  2
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  202-block  3
+call    4 never executed
+call    5 never executed
+    =====:  203:                                    cout << "Invalid mask, try again" << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  203-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    =====:  204:                                }
+    $$$$$:  204-block  0
+call    0 never executed
+call    1 never executed
+    $$$$$:  204-block  1
+call    2 never executed
+    $$$$$:  204-block  2
+call    3 never executed
+    =====:  205:                            } while (true);
+    #####:  206:                            render(incorrectGuess, previousGuesses, secretWord);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  207:                        }
+    #####:  208:                    } while (!stop);
+    %%%%%:  208-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  209:                    if (!teachAi)
+    %%%%%:  209-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  210:                        displayFinalResult(incorrectGuess != MAX_BAD_GUESSES, secretWord);
+    %%%%%:  210-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  211:                    cout << "Do you want to play again: y/n " << endl
+    %%%%%:  211-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  211-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  212:                         << "Press 0 to back to menu" << endl
+    %%%%%:  212-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  212-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  213:                         << "Your Choice: ";
+    %%%%%:  213-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  214:                    string k;
+    %%%%%:  214-block  0
+call    0 never executed
+    #####:  215:                    while (k[0] != 'n' && k[0] != 'y' && k[0] != '0')
+    %%%%%:  215-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  215-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  215-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  215-block  3
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  215-block  4
+call   10 never executed
+branch 11 never executed
+branch 12 never executed
+    %%%%%:  215-block  5
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  215-block  6
+    %%%%%:  215-block  7
+    %%%%%:  215-block  8
+branch 15 never executed
+branch 16 never executed
+    #####:  216:                        cin >> k;
+    %%%%%:  216-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  217:                    z[0] = k[0];
+    %%%%%:  217-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  217-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  218:                    if (k[0] == '0') { Play_Option = 0; }
+    %%%%%:  218-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  218-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  218-block  2
+    #####:  219:                } while (z[0] == 'y' || z[0] == 'Y');
+    %%%%%:  219-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  219-block  1
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  219-block  2
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+    %%%%%:  219-block  3
+branch 11 never executed
+branch 12 never executed
+    %%%%%:  219-block  4
+    %%%%%:  219-block  5
+    %%%%%:  219-block  6
+branch 13 never executed
+branch 14 never executed
+    $$$$$:  219-block  7
+call   15 never executed
+    $$$$$:  219-block  8
+call   16 never executed
+    $$$$$:  219-block  9
+call   17 never executed
+    #####:  220:                break;
+    %%%%%:  220-block  0
+        -:  221:            }
+    #####:  222:            default: {
+    #####:  223:                cout << "Input is false" << endl;
+    %%%%%:  223-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  223-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  224:                Play_Option = 0;
+    %%%%%:  224-block  0
+        -:  225:            }
+        -:  226:
+        -:  227:        }
+    #####:  228:    } while (Play_Option == 0);   // tạo menu
+    %%%%%:  228-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  229:    string s;
+    %%%%%:  229-block  0
+call    0 never executed
+    %%%%%:  229-block  1
+call    1 never executed
+    $$$$$:  229-block  2
+call    2 never executed
+    #####:  230:    fflush(stdin);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  230-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:  231:
+        -:  232:    do {
+    #####:  233:        fflush(stdin);
+    %%%%%:  233-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  233-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:  234:
+    #####:  235:        srand(time(0));
+    %%%%%:  235-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  235-block  1
+call    3 never executed
+    #####:  236:        string word, mean;
+call    0 never executed
+call    1 never executed
+    #####:  237:        fflush(stdin);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  237-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  238:        chooseWord(DATA_FILE, MEANING_FILE, word, mean);
+    %%%%%:  238-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  239:        if (word.length() < 1) {
+    %%%%%:  239-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  240:            cout << "Error reading vocabulary file " << DATA_FILE;
+    %%%%%:  240-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  240-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  241:            return -1;
+    %%%%%:  241-block  0
+        -:  242:        }
+    #####:  243:        bool hint1 = false;
+    #####:  244:        bool hint2 = false;
+    #####:  245:        bool hint3 = false;
+    #####:  246:        string guessedWord = string(word.length(), '-');
+    %%%%%:  246-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    $$$$$:  246-block  1
+    #####:  247:        string badGuesses = "";
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  247-block  0
+    #####:  248:        string doneWord = "";
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  248-block  0
+        -:  249:        int lenbadguesse;
+        -:  250:        time_t start;
+    #####:  251:        time(&start);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  252:        double timelimit;
+    #####:  253:        if (Play_Option == 4) {
+    %%%%%:  253-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  254:            cout << "Enter the mins and seconds:";
+    %%%%%:  254-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  255:            cin >> timelimit;
+    %%%%%:  255-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  256:        }
+        -:  257:        do {
+    #####:  258:            int k = 1;
+    #####:  259:            renderGame(guessedWord, badGuesses, hint1, hint2, hint3);
+    %%%%%:  259-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  260:
+    #####:  261:            if (Play_Option == 3) cout << "Vietnamese Meaning : " << mean << endl;
+    %%%%%:  261-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  261-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  261-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  261-block  3
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+    #####:  262:            char guess = readAGuess();
+    %%%%%:  262-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  263:
+        -:  264:            //Hint;
+    #####:  265:            if (guess == '1') {
+    %%%%%:  265-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  266:                cout << "Vietnamese Meaning : " << mean << endl;
+    %%%%%:  266-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  266-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  266-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    #####:  267:                guess = readAGuess();
+    %%%%%:  267-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  268:                Play_Option = 3;
+    #####:  269:                hint1 = true;
+    %%%%%:  269-block  0
+    #####:  270:            } else if (guess == '1' && hint1 == true) {
+    %%%%%:  270-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  270-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  271:                cout << "You already used this function" << endl;
+    %%%%%:  271-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  271-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  272:                guess = readAGuess();
+    %%%%%:  272-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  272-block  1
+        -:  273:            }
+    #####:  274:            if (guess == '2' && hint2 == false) {
+    %%%%%:  274-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  274-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  275:                cout << word << endl;
+    %%%%%:  275-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  275-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  276:                getCloseword(guess, word);
+    %%%%%:  276-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  277:                hint2 = true;
+    %%%%%:  277-block  0
+    #####:  278:            } else if (guess == '2' && hint2 == true) {
+    %%%%%:  278-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  278-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  279:                cout << "You already used this function" << endl;
+    %%%%%:  279-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  279-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  280:                guess = readAGuess();
+    %%%%%:  280-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  280-block  1
+        -:  281:            }
+    #####:  282:            if (guess == '3' && hint3 == false) {
+    %%%%%:  282-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  282-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  283:                guess = getClue(guessedWord, word);
+    %%%%%:  283-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  283-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  283-block  2
+call    6 never executed
+    $$$$$:  283-block  3
+call    7 never executed
+    $$$$$:  283-block  4
+    #####:  284:                hint3 = true;
+    #####:  285:            } else if (guess == '3' && hint3 == true) {
+    %%%%%:  285-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  285-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  286:                cout << "You already used this function" << endl;
+    %%%%%:  286-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  286-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  287:                guess = readAGuess();
+    %%%%%:  287-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  287-block  1
+        -:  288:            }
+    #####:  289:            if (contains(word, guess)) {
+    %%%%%:  289-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  289-block  1
+branch  3 never executed
+branch  4 never executed
+    #####:  290:                if (contains(doneWord, guess)) {
+    %%%%%:  290-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  290-block  1
+branch  3 never executed
+branch  4 never executed
+    #####:  291:                    cout << "You already chose this word";
+    %%%%%:  291-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  292:                    this_thread::sleep_for(chrono::milliseconds(1000));
+    %%%%%:  292-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  292-block  1
+    $$$$$:  292-block  2
+    #####:  293:                    timelimit += 1.2;
+    %%%%%:  293-block  0
+        -:  294:                }
+    #####:  295:                doneWord += guess;
+    %%%%%:  295-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  296:                updateGuessedWord(guessedWord, word, guess);
+    %%%%%:  296-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  297:
+        -:  298:            } else {
+    #####:  299:                if (contains(doneWord, guess)) {
+    %%%%%:  299-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  299-block  1
+branch  3 never executed
+branch  4 never executed
+    #####:  300:                    cout << "You already chose this word";
+    %%%%%:  300-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  301:                    this_thread::sleep_for(chrono::milliseconds(1000));
+    %%%%%:  301-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  301-block  1
+    $$$$$:  301-block  2
+    #####:  302:                    timelimit += 1.2;
+    %%%%%:  302-block  0
+        -:  303:                } else {
+    #####:  304:                    badGuesses += guess;
+    %%%%%:  304-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  305:                    doneWord += guess;
+    %%%%%:  305-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  306:                }
+        -:  307:            }
+    #####:  308:            lenbadguesse = badGuesses.length();
+    %%%%%:  308-block  0
+call    0 never executed
+        -:  309:            time_t limit;
+    #####:  310:            time(&limit);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  311:            if (timelimit < difftime(limit, start) && Play_Option == 4) {
+    %%%%%:  311-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  311-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  311-block  2
+branch  5 never executed
+branch  6 never executed
+    %%%%%:  311-block  3
+    %%%%%:  311-block  4
+    %%%%%:  311-block  5
+branch  7 never executed
+branch  8 never executed
+    #####:  312:                cout << "Time Out! You loss.";
+    %%%%%:  312-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  313:                lenbadguesse += 7;
+    %%%%%:  313-block  0
+        -:  314:            }
+    #####:  315:            if ((timelimit > difftime(limit, start) && Play_Option == 4)) {
+    %%%%%:  315-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  315-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  315-block  2
+branch  5 never executed
+branch  6 never executed
+    %%%%%:  315-block  3
+    %%%%%:  315-block  4
+    %%%%%:  315-block  5
+branch  7 never executed
+branch  8 never executed
+    #####:  316:                cout << "You have " << timelimit - difftime(limit, start) << "  seconds left";
+    %%%%%:  316-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  316-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  316-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  316-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    #####:  317:                this_thread::sleep_for(chrono::milliseconds(1000));
+    %%%%%:  317-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  317-block  1
+    $$$$$:  317-block  2
+    #####:  318:                timelimit += 1.1;
+    %%%%%:  318-block  0
+        -:  319:            }
+        -:  320:
+    #####:  321:        } while (lenbadguesse < MAX_BAD_GUESSES && word != guessedWord);
+    %%%%%:  321-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  321-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  321-block  2
+    %%%%%:  321-block  3
+    %%%%%:  321-block  4
+branch  5 never executed
+branch  6 never executed
+        -:  322:        time_t end;
+    #####:  323:        time(&end);
+    %%%%%:  323-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  324:        double seconds = difftime(end, start);
+    %%%%%:  324-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  325:        double Point = point(hint1, hint2, hint3, seconds);
+    %%%%%:  325-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  326:
+    #####:  327:        cout << "You have spent " << seconds << " seconds to complete the turn." << endl
+    %%%%%:  327-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  327-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  327-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  327-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    #####:  328:             << " Your point: " << Point;
+    %%%%%:  328-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  328-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:  329:
+    #####:  330:        this_thread::sleep_for(chrono::milliseconds(3000));
+    %%%%%:  330-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  330-block  1
+    $$$$$:  330-block  2
+    #####:  331:        displayFinalResult(word == guessedWord, word);
+    %%%%%:  331-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:  332:        cout << "Do you want to play again: y/n " << endl;
+    %%%%%:  332-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  332-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  333:        string k;
+    %%%%%:  333-block  0
+call    0 never executed
+    #####:  334:        while (k[0] != 'n' && k[0] != 'y')
+    %%%%%:  334-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  334-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  334-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  334-block  3
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  334-block  4
+    %%%%%:  334-block  5
+    %%%%%:  334-block  6
+branch 10 never executed
+branch 11 never executed
+    #####:  335:            cin >> k;
+    %%%%%:  335-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  336:        s[0] = k[0];
+    %%%%%:  336-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  336-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  337:    } while (s[0] == 'y');
+    %%%%%:  337-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+    %%%%%:  337-block  1
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    %%%%%:  337-block  2
+    %%%%%:  337-block  3
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  337-block  4
+call   10 never executed
+branch 11 never executed
+branch 12 never executed
+    %%%%%:  337-block  5
+branch 13 never executed
+branch 14 never executed
+    $$$$$:  337-block  6
+call   15 never executed
+    $$$$$:  337-block  7
+call   16 never executed
+    $$$$$:  337-block  8
+call   17 never executed
+    $$$$$:  337-block  9
+call   18 never executed
+    $$$$$:  337-block 10
+call   19 never executed
+    $$$$$:  337-block 11
+call   20 never executed
+    #####:  338:    return 0;
+    %%%%%:  338-block  0
+    #####:  339:}
+call    0 never executed
+    $$$$$:  339-block  0
+call    1 never executed

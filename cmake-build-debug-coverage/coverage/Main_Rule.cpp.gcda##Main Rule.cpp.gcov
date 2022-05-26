@@ -1,0 +1,348 @@
+        -:    0:Source:C:/Users/Admin/OneDrive - vnu.edu.vn/Desktop/HangManProVip/Sources/Main Rule.cpp
+        -:    0:Graph:C:\Users\Admin\OneDrive - vnu.edu.vn\Desktop\HangManProVip\cmake-build-debug-coverage\CMakeFiles\HangManProVip.dir\Sources\Main_Rule.cpp.gcno
+        -:    0:Data:C:\Users\Admin\OneDrive - vnu.edu.vn\Desktop\HangManProVip\cmake-build-debug-coverage\CMakeFiles\HangManProVip.dir\Sources\Main_Rule.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include<iostream>
+        -:    2:#include <vector>
+        -:    3:#include <cstring>
+        -:    4:#include <fstream>
+        -:    5:
+        -:    6:using namespace std;
+        -:    7:
+function _Z18getLowerCaseStringRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 0 returned 0% blocks executed 0%
+    #####:    8:string getLowerCaseString(const string &s) {    // chuyển từ trong file thành chữ thường
+    #####:    9:    string res = s;
+    %%%%%:    9-block  0
+call    0 never executed
+    #####:   10:    transform(s.begin(), s.end(), res.begin(), ::tolower);
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   11:    return res;
+    %%%%%:   11-block  0
+    %%%%%:   11-block  1
+    =====:   12:}   //chuyển tất cả chữ sang
+    $$$$$:   12-block  0
+call    0 never executed
+        -:   13:
+function _Z10chooseWordPKcS0_RNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_ called 0 returned 0% blocks executed 0%
+    #####:   14:void chooseWord(const char *fileName, const char *MeaningName, string &cword,
+        -:   15:                string &cmean) {   // chọn từ từ 1 file và chọn nghĩa từ file
+    #####:   16:    vector<string> wordList;
+    %%%%%:   16-block  0
+call    0 never executed
+    #####:   17:    ifstream file(fileName);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   18:    if (file.is_open()) {
+    %%%%%:   18-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   18-block  1
+branch  3 never executed
+branch  4 never executed
+    #####:   19:        string word;
+    %%%%%:   19-block  0
+call    0 never executed
+    #####:   20:        while (file >> word) {
+    %%%%%:   20-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   20-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   20-block  2
+branch  6 never executed
+branch  7 never executed
+    #####:   21:            wordList.push_back(word);
+    %%%%%:   21-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   22:        }
+    #####:   23:        file.close();
+    %%%%%:   23-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   24:    }
+    %%%%%:   24-block  0
+call    0 never executed
+    $$$$$:   24-block  1
+call    1 never executed
+    #####:   25:    vector<string> MeaningList;
+    %%%%%:   25-block  0
+call    0 never executed
+    #####:   26:    ifstream mfile(MeaningName);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   27:    if (mfile.is_open()) {
+    %%%%%:   27-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   27-block  1
+branch  3 never executed
+branch  4 never executed
+    #####:   28:        string Meaning;
+    %%%%%:   28-block  0
+call    0 never executed
+    #####:   29:        while (getline(mfile, Meaning)) {
+    %%%%%:   29-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   29-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   29-block  2
+branch  6 never executed
+branch  7 never executed
+    #####:   30:            MeaningList.push_back(Meaning);
+    %%%%%:   30-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   31:        }
+    #####:   32:        mfile.close();
+    %%%%%:   32-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   33:    }
+    %%%%%:   33-block  0
+call    0 never executed
+    $$$$$:   33-block  1
+call    1 never executed
+    #####:   34:    if (wordList.size() > 0) {
+    %%%%%:   34-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   35:        int randomIndex = rand() % wordList.size();
+    %%%%%:   35-block  0
+call    0 never executed
+call    1 never executed
+    #####:   36:        cword = getLowerCaseString(wordList[randomIndex]);
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:   36-block  0
+call    4 never executed
+call    5 never executed
+    #####:   37:        cmean = MeaningList[randomIndex];
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:   38:    }
+    #####:   39:}
+    %%%%%:   39-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+    $$$$$:   39-block  1
+call    4 never executed
+    $$$$$:   39-block  2
+call    5 never executed
+    $$$$$:   39-block  3
+call    6 never executed
+    $$$$$:   39-block  4
+call    7 never executed
+        -:   40:
+function _Z10readAGuessv called 0 returned 0% blocks executed 0%
+    #####:   41:char readAGuess() {   //nhập chữ vào và chuyển thành chữ viết thường
+        -:   42:    char input;
+    #####:   43:    cout << "Your guess: ";
+    %%%%%:   43-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   44:    cin >> input;
+    %%%%%:   44-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   45:    return tolower(input);
+    %%%%%:   45-block  0
+    %%%%%:   45-block  1
+        -:   46:}
+        -:   47:
+function _Z8containsRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEc called 0 returned 0% blocks executed 0%
+    #####:   48:bool contains(const string &word, char c) {                        // Kiểm tra xem chữ đó có trong từ đoán hay không
+    #####:   49:    return (word.find_first_of(c) != string::npos);
+    %%%%%:   49-block  0
+call    0 never executed
+        -:   50:}
+        -:   51:
+function _Z17updateGuessedWordRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS4_c called 0 returned 0% blocks executed 0%
+    #####:   52:void updateGuessedWord(string &guessedWord, const string &word, char guess) {  // Thêm chữ vào ô vừa đoán trúng
+    #####:   53:    for (int i = word.length() - 1; i >= 0; i--) {
+    %%%%%:   53-block  0
+call    0 never executed
+    %%%%%:   53-block  1
+    %%%%%:   53-block  2
+branch  1 never executed
+branch  2 never executed
+    #####:   54:        if (word[i] == guess) {
+    %%%%%:   54-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   55:            guessedWord[i] = guess;
+    %%%%%:   55-block  0
+call    0 never executed
+        -:   56:        }
+        -:   57:    }
+    #####:   58:}
+        -:   59:
+function _Z5pointRbS_S_d called 0 returned 0% blocks executed 0%
+    #####:   60:double point(bool &hint1, bool &hint2, bool &hint3, double seconds) {
+        -:   61:    double point;
+    #####:   62:    double percent = 1;
+    #####:   63:    if (hint1) {
+    %%%%%:   63-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   64:        percent -= 0.1;
+    %%%%%:   64-block  0
+        -:   65:    }
+    #####:   66:    if (hint2) {
+    %%%%%:   66-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   67:        percent -= 0.15;
+    %%%%%:   67-block  0
+        -:   68:    }
+    #####:   69:    if (hint3)
+    %%%%%:   69-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   70:        percent -= 0.2;
+    %%%%%:   70-block  0
+    #####:   71:    double maxpoint = 1000;
+    #####:   72:    if (seconds <= 90) {
+    %%%%%:   72-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   73:        point = (maxpoint - 10 * seconds) * percent;
+    %%%%%:   73-block  0
+        -:   74:    } else {
+    #####:   75:        point = (maxpoint - 900) * percent;
+    %%%%%:   75-block  0
+        -:   76:    }
+    #####:   77:    return point;
+    %%%%%:   77-block  0
+        -:   78:}
+        -:   79:
+function _Z7AIstudyv called 0 returned 0% blocks executed 0%
+    #####:   80:void AIstudy() {
+    #####:   81:    fstream a, b;
+    %%%%%:   81-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   81-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   82:    string newword, newmean;
+    %%%%%:   82-block  0
+call    0 never executed
+call    1 never executed
+    #####:   83:    cout << "Your word: " << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   83-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   84:    fflush(stdin);
+    %%%%%:   84-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   84-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   85:    getline(cin, newword);
+    %%%%%:   85-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   86:    cout << "Word meaning: ";
+    %%%%%:   86-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   87:    getline(cin, newmean);
+    %%%%%:   87-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   88:    a.open("C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\All word list.txt", ios::app);
+    %%%%%:   88-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   89:    b.open("C:\\Users\\Admin\\OneDrive - vnu.edu.vn\\Desktop\\HangManProVip\\Data\\All word list meaning.txt",
+    %%%%%:   89-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   90:           ios::app);
+    #####:   91:    a << endl << newword;
+    %%%%%:   91-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   91-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   92:    b << endl << newmean;
+    %%%%%:   92-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   92-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   93:    a.close();
+    %%%%%:   93-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   94:    b.close();
+    %%%%%:   94-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   95:}
+    %%%%%:   95-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+    $$$$$:   95-block  1
+call    4 never executed
+    $$$$$:   95-block  2
+call    5 never executed
+    $$$$$:   95-block  3
+call    6 never executed
+    $$$$$:   95-block  4
+call    7 never executed

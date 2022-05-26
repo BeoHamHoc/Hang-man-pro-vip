@@ -1,0 +1,27 @@
+# ninja log v5
+3	1037	6751787722991526	CMakeFiles/HangManProVip.dir/main.cpp.obj	932714a3ddd99ded
+13	637	6750346273067098	CMakeFiles/HangManProVip.dir/Sources/Player.cpp.obj	c5c9863a6b478a6
+2	411	6732901276997933	CMakeFiles/nhap.dir/nhap.cpp.obj	bf4877edf1839710
+3	783	6750399504858788	CMakeFiles/HangManProVip.dir/Sources/Draw.cpp.obj	ed576398324cdaac
+2	324	6750351490110642	build.ninja	63df5c7e69e162d2
+15	1062	6750346277328059	CMakeFiles/HangManProVip.dir/Sources/Main_Rule.cpp.obj	a9b63e5db368ccb
+2	417	6732901042907861	CMakeFiles/HangManProVip.dir/nhap.cpp.obj	21d393e86bec7b67
+2	697	6735147485130818	CMakeFiles/HangManProVip.dir/Sources/main.cpp.obj	4a3120aab7f05632
+1052	1201	6751787724611914	HangManProVip.exe	f9f9a8a5ae8112d9
+10	435	6732913144795425	CMakeFiles/HangManProVip.dir/Sources/Menu.cpp.obj	1aefc8d124f61535
+13	690	6750832620096729	CMakeFiles/HangManProVip.dir/Sources/HintFunctions.cpp.obj	4ce17aa2c41218df
+14	60	6744715452875319	CMakeFiles/HangManProVip.dir/Sources/Time.cpp.obj	5ba498dc1a9cd80c
+13	1426	6750395668986923	CMakeFiles/HangManProVip.dir/Sources/Ai_Function.cpp.obj	41dcb8cd05ff9986
+3	1255	6751788269325502	CMakeFiles/HangManProVip.dir/main.cpp.obj	932714a3ddd99ded
+1266	1420	6751788270954187	HangManProVip.exe	f9f9a8a5ae8112d9
+3	1267	6751790638931344	CMakeFiles/HangManProVip.dir/main.cpp.obj	932714a3ddd99ded
+1278	1428	6751790640531790	HangManProVip.exe	f9f9a8a5ae8112d9
+5	2094	6752462482444217	CMakeFiles/HangManProVip.dir/main.cpp.obj	932714a3ddd99ded
+2097	2673	6752462488242906	HangManProVip.exe	f9f9a8a5ae8112d9
+3	1187	6752464820085958	CMakeFiles/HangManProVip.dir/main.cpp.obj	932714a3ddd99ded
+1190	1370	6752464821916368	HangManProVip.exe	f9f9a8a5ae8112d9
+3	1373	6752475956213638	CMakeFiles/HangManProVip.dir/main.cpp.obj	932714a3ddd99ded
+1420	1638	6752475958834258	HangManProVip.exe	f9f9a8a5ae8112d9
+3	1313	6752477001897201	CMakeFiles/HangManProVip.dir/main.cpp.obj	932714a3ddd99ded
+2	160	6752477023904291	HangManProVip.exe	f9f9a8a5ae8112d9
+3	1133	6752480088588887	CMakeFiles/HangManProVip.dir/main.cpp.obj	932714a3ddd99ded
